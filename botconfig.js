@@ -1,12 +1,12 @@
 module.exports = {
-  Admins: ["UserID", "UserID"], // Admins of the bot, I don't know what this do. -Darren.
+  Admins: ["722893072580476978", "686364961504624661"], // Admins of the bot, I don't know what this do. -Darren.
   ExpressServer: true, // If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", // Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
-  SupportServer: "https://discord.gg/sbySMS7m3v", // Support Server Link
-  Token: process.env.Token || "", // Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", // Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "", // Discord Client Secret
+  SupportServer: "https://discord.gg/f3mfH59pEf", // Support Server Link
+  Token: process.env.Token || "OTk3NTMzNTg0NTc3NTQwMTQ2.G95cTP.FsQxwRuhPtH7mAaSQJWDkJ1ituG3BBAGnFYXco", // Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "997533584577540146", // Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "y5cPOFeXmBkC2RbcSwUHGJfBVHXl2DWu", // Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], // Discord OAuth2 Scopes
   ServerDeafen: true, // If you want bot to stay deafened
   DefaultVolume: 100, // Sets the default volume of the bot, You can change this number anywhere from 1 to 9007199254740991 (JS Integer limit. If you do set it to that, you're a monster.)
@@ -22,24 +22,24 @@ module.exports = {
 
   Presence: {
     status: "online", // You can show online, idle, and dnd
-    name: "Music", // The message shown
-    type: "LISTENING", // PLAYING, WATCHING, LISTENING, STREAMING
+    name: "Ruby", // The message shown
+    type: "PLAYING", // PLAYING, WATCHING, LISTENING, STREAMING
   },
 
   // You need a lavalink server for this bot to work!!!!
   // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
   Lavalink: {
     id: "Main", //- Used for indentifier. You can set this to whatever you want.
-    host: "", //- The host name or IP of the lavalink server.
-    port: 80, // The port that lavalink is listening to. This must be a number!
-    pass: "", //- The password of the lavalink server.
+    host: "lavalink.rukchadisa.live", //- The host name or IP of the lavalink server.
+    port: 8080, // The port that lavalink is listening to. This must be a number!
+    pass: "youshallnotpass", //- The password of the lavalink server.
     secure: false, // Set this to true if the lavalink uses SSL. if not set it to false.
     retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
     retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
   },
   // Spotify Integration, allows you to enter a spotify link.
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "", // Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "", // Spotify Client Secret
+    ClientID: process.env.Spotify_ClientID || "8571b2c8b97a42938acdafa933ae1886", // Spotify Client ID
+    ClientSecret: process.env.Spotify_ClientSecret || "6cc17a8187044e199aed635df2df4fd3", // Spotify Client Secret
   },
 };
